@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+body {
+    margin: 0px;
+    text-decoration: none;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.img-header-page {
+    height: 62px;
+    border-radius: 50px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.itens-menu {
+    color: #fff2e7;
+    text-decoration: none;
+}
+
+main {
+    border-top: 0.4px solid #fff2e7;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text-title {
+    color: #fff2e7;
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.main-text-subtitle {
+    color: #fff2e7;
+    font-family: 'Sarala';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main-text-button {
+    background: #ECD6C4;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 180px;
+    height: 65px;
+    text-decoration: underline;
+    color: #2F2325;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-text-button:hover {
+    background: #af9784;
+}
+
+.main-text-img {
+    height: 400px;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ECD6C4;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+.main-description-title {
+    color: #fff2e7;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 60px;
+}
+
+.main-description-text {
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer-page {
+    border-top: 0.4px solid #fff2e7;
+}
+
+.img-footer-page {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
